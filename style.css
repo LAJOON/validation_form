@@ -1,0 +1,59 @@
+#main {
+  width: 50%;
+  margin: 100px auto;
+  padding: 25px 28px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0, 1);
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #e7e7e7;
+}
+.lajoon {
+  display: block;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #e2e2e2;
+}
+.lajoon input {
+  padding: 10px 8px;
+  width: 100%;
+  font-size: 20px;
+  background: #a79999;
+  border: none;
+  color: #faeded;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+.lajoon input:hover {
+  background: #857777;
+}
+.lajoon input:focus {
+  box-shadow: 0px 0px 0px 1px #b7c7d3;
+}
+button {
+  padding: 10px 18px;
+  font-size: 15px;
+  background: #074db6;
+  width: 60%;
+  border: none;
+  border-radius: 4px;
+  color: #f4f4f4;
+  transition: all 0.2s ease;
+  margin-top: 10px;
+  margin-left: 20%;
+}
+
+body {
+  background-image: linear-gradient(to right, #469671 0%, #6d3e63 100%);
+}
